@@ -1,0 +1,53 @@
+body{
+background-color: darkslategray;}
+.container-1{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;   
+}
+
+.flex-blackjack-row-1 ,.flex-blackjack-row-2 ,.flex-blackjack-row-3{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+      
+}
+.flex-blackjack-row-1 {
+    background: url("https://www.daddyslots.com/wp-content/uploads/2018/08/blackjack.jpg") center;
+    background-repeat: no-repeat; 
+    color: black;
+}
+.flex-blackjack-row-2{
+    background: url("https://media.istockphoto.com/photos/poker-table-picture-id1046326882?k=6&m=1046326882&s=612x612&w=0&h=FWwERAhFegLxTvxXw2uEyDg1ua1DiV-bXImf9ENaXDg=" )center;
+
+}
+.flex-blackjack-row-1 div{
+    border: 1px solid black;
+    padding: 10px;
+    height: 355px;
+    text-align: center;
+    flex: 1;
+}
+.flex-blackjack-row-2 button{
+    border: 1px solid black;
+    padding: 10px;
+}
+.flex-blackjack-row-2 div{
+    border: 1px solid black;
+    padding: 10px;
+
+}
+.flex-blackjack-row-3 table, th ,td{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.flex-blackjack-row-1 img {
+    width: 25%;
+    padding: 10px;
+}
